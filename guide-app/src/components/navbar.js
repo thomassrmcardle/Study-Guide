@@ -8,7 +8,7 @@ export default function Navbar() {
       <Link href="/subjects">Subjects</Link> |{' '}
       <Link href="/about">About Us</Link>
       <div className='spacer'></div>
-      <Link href="/signup">Sign Up</Link>
+      <Link className='button' href="/signup">Sign Up</Link>
       <Link href="/login">Login</Link>
     </nav>
   );

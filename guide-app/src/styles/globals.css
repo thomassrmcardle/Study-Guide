@@ -34,6 +34,12 @@ nav {
 
 nav a {
   color: var(--foreground) !important;
+  padding: 0.5rem 0px;
+}
+
+.button {
+  background: var(--foreground);
+  color: var(--background);
 }
 
 .spacer {
