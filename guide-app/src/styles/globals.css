@@ -42,6 +42,8 @@ a:hover {
 nav {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
   background: var(--background);
   color: var(--foreground);
   border-bottom: 1px solid var(--secondaryBack);
@@ -56,6 +58,7 @@ nav a {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
 }
 
 .button {
