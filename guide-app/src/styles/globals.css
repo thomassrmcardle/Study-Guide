@@ -27,11 +27,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-Link {
+.link {
   transition: all 0.125s;
 }
 
-Link:hover {
+.link:hover {
   opacity: 0.5;
 }
 
