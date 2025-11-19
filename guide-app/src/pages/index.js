@@ -5,8 +5,11 @@ export default function Home() {
         <title>Welcome to Guide</title>
       </head>
       <div style={{ padding: '2rem' }}>
-        <h1><b>Welcome to Guide</b></h1>
-        <p>Your low-cost exam revision companion.</p>
+        <h1><b>The free and effective tool for your studies</b></h1>
+        <div className="row">
+          <Link className='button' href="/signup">Get Started</Link>
+          <Link className='button secondaryButton'>I have an account</Link>
+        </div>
       </div>
     </>
   );
