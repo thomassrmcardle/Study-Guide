@@ -3,7 +3,7 @@ import React from 'react';
 export default function Layout({ children }) {
   return (
     <div>
-      <nav style={{ padding: '1rem', borderBottom: '1px solid #ddd' }}>
+      <nav style={{ padding: '1rem' }}>
         <a href="/">Home</a> |{' '}
         <a href="/subjects">Subjects</a> |{' '}
         <a chref="/about">About Us</a>
