@@ -68,7 +68,7 @@ nav a {
 
 .secondaryButton {
   background: var(--secondaryBack);
-  color: var(--accent) !important;
+  color: var(--white) !important;
 }
 
 .spacer {
