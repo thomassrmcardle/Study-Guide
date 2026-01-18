@@ -92,7 +92,32 @@ nav a {
   grid-template-areas: 'p1 p1 p2 p3 p4'
                        'p1 p1 p5 p6 p7';
   gap: 1rem;
-  margin: 0rem 1.25rem;
+  margin: 1.25rem;
+}
+
+.articleGrid:first-child {
+  grid-area: p1;
+}
+.articleGrid:nth-child(2) {
+  grid-area: p2;
+}
+.articleGrid:nth-child(3) {
+  grid-area: p3;
+}
+.articleGrid:nth-child(4) {
+  grid-area: p4;
+}
+.articleGrid:nth-child(4) {
+  grid-area: p4;
+}
+.articleGrid:nth-child(5) {
+  grid-area: p5;
+}
+.articleGrid:nth-child(6) {
+  grid-area: p6;
+}
+.articleGrid:nth-child(7) {
+  grid-area: p7;
 }
 
 .promptCard{
@@ -138,9 +163,6 @@ nav a {
   border-radius: 4px;
 }
 
-.articleGrid:first-child {
-  grid-area: p1;
-}
 
 ::marker {
   font-size: 0;

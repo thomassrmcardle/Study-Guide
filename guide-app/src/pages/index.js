@@ -21,7 +21,7 @@ export default function Home() {
       </head>
       <div style={{ margin: '2rem 20rem' }}>
         <h1>Global Headlines</h1>
-        <div style={{display: 'flex', gap: '1rem', justifyContent: 'center', alignContent: 'center', flexWrap: 'wrap'}}>
+        <div style={{display: 'grid', gap: '1rem', justifyContent: 'center', alignContent: 'center', flexWrap: 'wrap'}}>
           <lu className="articleGrid" style={{listStyleType: 'none'}}>
             {articles.map((article, index) =>
               <li className="storyCard">
