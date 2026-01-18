@@ -4,7 +4,7 @@ export default function Home() {
       <head>
         <title>Omni | Home</title>
       </head>
-      <div style={{ padding: '2rem' }}>
+      <div style={{ margin: '2rem 20rem' }}>
         <h1>Global Headlines</h1>
         <div style={{display: 'flex', gap: '1rem'}}>
           <div className="primaryCard storyCard">
@@ -24,7 +24,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div style={{display: 'flex'}}>
+        <div className="promptCard" style={{display: 'flex'}}>
           <div style={{flexGrow: '1'}}>
             <h3>Stay connected on what matters to you</h3>
             <h4>Follow topics and events as they occur</h4>

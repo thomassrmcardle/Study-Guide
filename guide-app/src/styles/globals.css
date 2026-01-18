@@ -82,8 +82,18 @@ nav a {
   flex-grow: 1;
 }
 
+.promptCard{
+  background: var(--secondaryBack);
+  color: var(--foreground);
+  padding: 1rem;
+  border-radius: 12px;
+  outline: var(--outline) solid 2px;
+  box-shadow: 0px 0px 10px var(--shadow);
+}
+
 .primaryCard {
-  width: 30rem !important;
+  flex-grow: 1;
+  max-height: 30rem !important;
 }
 
 .primaryCard h2 {
@@ -112,5 +122,4 @@ nav a {
   aspect-ratio: calc(16/9);
   object-fit: cover;
   border-radius: 4px;
-  max-height: 25rem !important;
 }
