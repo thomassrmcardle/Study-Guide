@@ -5,7 +5,7 @@ export default function Home() {
         <title>Omni | Home</title>
       </head>
       <div style={{ padding: '2rem' }}>
-        <h1><b>Global Headlines</b></h1>
+        <h1>Global Headlines</h1>
         <div style={{display: 'flex', gap: '1rem'}}>
           <div className="primaryCard storyCard">
             <img className="storyBanner" src="https://hips.hearstapps.com/hmg-prod/images/moving-to-countryside-advice-1610529118.jpg"></img>
@@ -14,7 +14,7 @@ export default function Home() {
               <p>Brief description here.</p>
             </div>
           </div>
-          <div style={{display: 'flex', gap: '1rem'}}>
+          <div style={{display: 'flex', gap: '1rem', flexWrap: 'wrap'}}>
             <div className="storyCard">
               <img className="storyBanner" src="https://hips.hearstapps.com/hmg-prod/images/moving-to-countryside-advice-1610529118.jpg"></img>
               <div>
