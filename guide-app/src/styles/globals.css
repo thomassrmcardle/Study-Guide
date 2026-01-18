@@ -11,8 +11,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --secondaryBack: #5a5a5a;
+    --background: #0e1920;
+    --secondaryBack: #384957;
     --foreground: #ededed;
   }
 }
@@ -72,10 +72,11 @@ nav a {
 }
 
 .storyCard {
+  color: var(--foreground);
   padding: 12px;
-  background: var(--foreground);
+  background: var(--secondaryBack);
   border-radius: 12px;
-  box-shadow: 0px 0px 10px black;
+  box-shadow: 0px 0px 10px var(--shadow);
 }
 
 .storyBanner {
