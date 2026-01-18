@@ -7,6 +7,13 @@ export default function Home() {
       <div style={{ padding: '2rem' }}>
         <h1><b>Global Headlines</b></h1>
         <div>
+          <div className="primaryCard storyCard">
+            <img className="storyBanner" src="https://hips.hearstapps.com/hmg-prod/images/moving-to-countryside-advice-1610529118.jpg"></img>
+            <div>
+              <h2>Article Name</h2>
+              <p>Brief description here.</p>
+            </div>
+          </div>
           <div className="storyCard">
             <img className="storyBanner" src="https://hips.hearstapps.com/hmg-prod/images/moving-to-countryside-advice-1610529118.jpg"></img>
             <div>
