@@ -5,15 +5,24 @@ export default function Home() {
         <title>Omni | Home</title>
       </head>
       <div style={{ padding: '2rem' }}>
-        <h1><b>Today's headlines...</b></h1>
+        <h1><b>Global Headlines</b></h1>
+        <div>
+          <div className="storyCard">
+            <img className="storyBanner" src="https://hips.hearstapps.com/hmg-prod/images/moving-to-countryside-advice-1610529118.jpg"></img>
+            <div>
+              <h2>Article Name</h2>
+              <p>Brief description here.</p>
+            </div>
+          </div>
+        </div>
         <div style={{display: 'flex'}}>
           <div style={{flexGrow: '1'}}>
             <h3>Stay connected on what matters to you</h3>
             <h4>Follow topics and events as they occur</h4>
           </div>
           <div className="row">
-            <a className='button' href="/signup">Get Started</a>
-            <a className='button secondaryButton'>I have an account</a>
+            <a className='button' href="/signup">Sign Up</a>
+            <a className='button secondaryButton' href="/login">Login</a>
           </div>
         </div>
       </div>
