@@ -11,8 +11,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0e1920;
-    --secondaryBack: #384957;
+    --background: #0c161b;
+    --secondaryBack: #2f3d49;
     --foreground: #ededed;
   }
 }
@@ -72,6 +72,7 @@ nav a {
 }
 
 .storyCard {
+  width: 10rem;
   color: var(--foreground);
   padding: 12px;
   background: var(--secondaryBack);
