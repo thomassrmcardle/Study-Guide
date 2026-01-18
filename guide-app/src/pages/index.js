@@ -6,8 +6,8 @@ export default function Home() {
       </head>
       <div style={{ padding: '2rem' }}>
         <h1><b>Today's headlines...</b></h1>
-        <div>
-          <div>
+        <div style={{display: 'flex'}}>
+          <div style={{flexGrow: '1'}}>
             <h3>Stay connected on what matters to you</h3>
             <h4>Follow topics and events as they occur</h4>
           </div>
