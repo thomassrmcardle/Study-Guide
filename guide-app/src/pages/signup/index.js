@@ -8,7 +8,7 @@ export default function Signup() {
             </head>
             <div style={{ margin: "2rem 20rem", display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
                 <h1>Sign Up</h1>
-                <div className="card" style={{maxWidth: '10rem'}}>
+                <div className="card field">
                     <form>
                         <label>
                             <h3>Username:</h3>
