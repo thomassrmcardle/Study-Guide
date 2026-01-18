@@ -20,7 +20,7 @@ export default function Home() {
       </head>
       <div style={{ margin: '2rem 20rem' }}>
         <h1>Global Headlines</h1>
-        <div style={{display: 'flex', gap: '1rem', justifyContent: 'center'}}>
+        <div style={{display: 'flex', gap: '1rem', justifyContent: 'center', alignContent: 'center', flexWrap: 'wrap'}}>
           <div className="primaryCard storyCard">
             <img className="storyBanner" src="https://hips.hearstapps.com/hmg-prod/images/moving-to-countryside-advice-1610529118.jpg"></img>
             <div>
@@ -28,17 +28,17 @@ export default function Home() {
               <p>Brief description here.</p>
             </div>
           </div>
-          <div style={{display: 'flex', gap: '1rem', flexWrap: 'wrap'}}>
+          <lu>
             {articles.map((article, index) =>
-              <div className="storyCard">
+              <li className="storyCard">
                 <img className="storyBanner" src="https://hips.hearstapps.com/hmg-prod/images/moving-to-countryside-advice-1610529118.jpg"></img>
                 <div>
                   <h2>Article Name</h2>
                   <p>Brief description here.</p>
                 </div>
-              </div>
+              </li>
             )}
-          </div>
+          </lu>
         </div>
         <div className="promptCard" style={{display: 'flex'}}>
           <div style={{flexGrow: '1'}}>
