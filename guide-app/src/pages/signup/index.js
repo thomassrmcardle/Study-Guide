@@ -6,13 +6,13 @@ export default function Signup() {
                 <title>Omni | Sign Up</title>
                 <meta name="description" content="Join Omni and stay informed with personalized news from around the world." />
             </head>
-            <div>
+            <div style={{ margin: "2rem 20rem", display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
                 <h1>Sign Up</h1>
-                <div className="card">
+                <div className="card" style={{maxWidth: '10rem'}}>
                     <form>
                         <label>
                             Username:
-                            <input type="text" name="username" />
+                            <input type="text" name="omni_username" />
                         </label>
                         <br />
                         <label>
@@ -22,7 +22,7 @@ export default function Signup() {
                         <br />
                         <label>
                             Password:
-                            <input type="password" name="password" />
+                            <input type="password" name="omni_password" />
                         </label>
                         <br />
                         <button type="submit">Sign Up</button>
