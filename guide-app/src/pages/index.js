@@ -18,6 +18,9 @@ export default function Home() {
     <>
       <head>
         <title>Omni | Home</title>
+        <meta name="description" content="Stay informed with Omni - headlines and personalized news from across the planet." />
+        <meta name="application-name" content="Omni" />
+        <meta name="keywords" content="news, headlines, personalized, world, media" />
       </head>
       <div style={{ margin: '2rem 20rem' }}>
         <h1>Global Headlines</h1>

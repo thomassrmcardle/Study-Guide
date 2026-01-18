@@ -120,6 +120,15 @@ nav a {
   grid-area: p7;
 }
 
+.card {
+  background: var(--secondaryBack);
+  color: var(--foreground);
+  padding: 1rem;
+  border-radius: 12px;
+  outline: var(--outline) solid 2px;
+  box-shadow: 0px 0px 10px var(--shadow);
+}
+
 .promptCard{
   background: var(--secondaryBack);
   color: var(--foreground);
