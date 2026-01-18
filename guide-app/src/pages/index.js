@@ -6,7 +6,7 @@ export default function Home() {
       </head>
       <div style={{ margin: '2rem 20rem' }}>
         <h1>Global Headlines</h1>
-        <div style={{display: 'flex', gap: '1rem'}}>
+        <div style={{display: 'flex', gap: '1rem', justifyContent: 'center'}}>
           <div className="primaryCard storyCard">
             <img className="storyBanner" src="https://hips.hearstapps.com/hmg-prod/images/moving-to-countryside-advice-1610529118.jpg"></img>
             <div>
