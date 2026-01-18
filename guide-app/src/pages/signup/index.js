@@ -11,17 +11,17 @@ export default function Signup() {
                 <div className="card" style={{maxWidth: '10rem'}}>
                     <form>
                         <label>
-                            Username:
+                            <h3>Username:</h3>
                             <input type="text" name="omni_username" />
                         </label>
                         <br />
                         <label>
-                            Email:
+                            <h3>Email:</h3>
                             <input type="email" name="email" />
                         </label>
                         <br />
                         <label>
-                            Password:
+                            <h3>Password:</h3>
                             <input type="password" name="omni_password" />
                         </label>
                         <br />
