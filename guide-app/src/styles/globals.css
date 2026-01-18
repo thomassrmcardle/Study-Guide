@@ -28,6 +28,7 @@ body {
 h1 {
   font-size: 2.5rem;
   font-weight: bold;
+  margin: 0px;
 }
 
 h2 {
@@ -88,7 +89,7 @@ nav a {
 
 .articleGrid {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
   grid-template-rows: auto auto auto;
   grid-template-areas:
     "p1 p2 p3 p4"
