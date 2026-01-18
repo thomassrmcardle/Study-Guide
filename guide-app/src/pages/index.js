@@ -1,4 +1,18 @@
+
+
+export const articles = [
+  {title: "Example", desc: "Some description"},
+  {title: "Example", desc: "Some description"},
+  {title: "Example", desc: "Some description"},
+  {title: "Example", desc: "Some description"},
+  {title: "Example", desc: "Some description"},
+  {title: "Example", desc: "Some description"},
+];
+
+
 export default function Home() {
+
+
   return (
     <>
       <head>
@@ -15,13 +29,15 @@ export default function Home() {
             </div>
           </div>
           <div style={{display: 'flex', gap: '1rem', flexWrap: 'wrap'}}>
-            <div className="storyCard">
-              <img className="storyBanner" src="https://hips.hearstapps.com/hmg-prod/images/moving-to-countryside-advice-1610529118.jpg"></img>
-              <div>
-                <h2>Article Name</h2>
-                <p>Brief description here.</p>
+            {articles.map((article, index) =>
+              <div className="storyCard">
+                <img className="storyBanner" src="https://hips.hearstapps.com/hmg-prod/images/moving-to-countryside-advice-1610529118.jpg"></img>
+                <div>
+                  <h2>Article Name</h2>
+                  <p>Brief description here.</p>
+                </div>
               </div>
-            </div>
+            )}
           </div>
         </div>
         <div className="promptCard" style={{display: 'flex'}}>
