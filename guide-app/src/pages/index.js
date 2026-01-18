@@ -7,6 +7,7 @@ export const articles = [
   {title: "Example", desc: "Some description"},
   {title: "Example", desc: "Some description"},
   {title: "Example", desc: "Some description"},
+  {title: "Example", desc: "Some description"},
 ];
 
 
@@ -21,13 +22,6 @@ export default function Home() {
       <div style={{ margin: '2rem 20rem' }}>
         <h1>Global Headlines</h1>
         <div style={{display: 'flex', gap: '1rem', justifyContent: 'center', alignContent: 'center', flexWrap: 'wrap'}}>
-          <div className="primaryCard storyCard">
-            <img className="storyBanner" src="https://hips.hearstapps.com/hmg-prod/images/moving-to-countryside-advice-1610529118.jpg"></img>
-            <div>
-              <h2>Main Article</h2>
-              <p>Brief description here.</p>
-            </div>
-          </div>
           <lu>
             {articles.map((article, index) =>
               <li className="storyCard">

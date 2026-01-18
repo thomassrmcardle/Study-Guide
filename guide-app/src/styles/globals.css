@@ -135,3 +135,7 @@ nav a {
   object-fit: cover;
   border-radius: 4px;
 }
+
+::marker {
+  opacity: 0;
+}
