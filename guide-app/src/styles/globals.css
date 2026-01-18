@@ -137,5 +137,5 @@ nav a {
 }
 
 ::marker {
-  opacity: 0;
+  font-size: 0;
 }
